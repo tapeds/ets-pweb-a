@@ -153,3 +153,20 @@ nav li {
   border-radius: 6px;
   color: #ffffff;
 }
+
+.bergabung a {
+  font-family: "Poppins", sans-serif;
+  background-color: #113946;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.bergabung a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
