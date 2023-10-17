@@ -1,0 +1,155 @@
+.hero {
+  background-image: url("bg1.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-size: 128px;
+  line-height: 100px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.hero h3 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  width: 55%;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero h1 {
+    font-size: 80px;
+  }
+  .koleksi {
+    flex-direction: column;
+  }
+  .sumberberita {
+    flex-direction: column;
+  }
+  .sumberberita img {
+    width: 200px;
+  }
+  .lokasi iframe {
+    width: 300px;
+  }
+  h2 {
+    font-size: 60px;
+    text-align: center;
+  }
+}
+
+.koleksi {
+  background-color: #ead7bb;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.koleksi img {
+  width: 300px;
+}
+
+.koleksi h2 {
+  font-size: 64px;
+}
+
+.berita {
+  background-color: #ead7bb;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.berita h2 {
+  font-size: 64px;
+}
+
+.berita .holder {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.berita .sumberberita {
+  display: flex;
+  gap: 30px;
+  padding: 0 50px 0 50px;
+  align-items: center;
+}
+
+.berita .sumberberita img {
+  width: 400px;
+}
+
+.berita h5 {
+  font-size: 36px;
+}
+
+.lokasi {
+  background-color: #fff2d8;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.lokasi h2 {
+  font-size: 64px;
+}
+
+.bergabung {
+  background-color: #fff2d8;
+  height: 50vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bergabung h2 {
+  font-size: 64px;
+}
+
+nav {
+  background-color: #bca37f;
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 0;
+}
+
+nav li {
+  color: #fff;
+}
+
+.styledbutton {
+  font-family: "Poppins", sans-serif;
+  background-color: #113946;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 6px;
+  color: #ffffff;
+}
